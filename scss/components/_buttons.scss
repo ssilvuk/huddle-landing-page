@@ -1,0 +1,14 @@
+.btn {
+    padding: 1em 7em;
+    border: none;
+    border-radius: 2em;
+    color: var(--clr-accent-2);
+    background-color: var(--clr-primary);
+    &:hover {
+        background-color: var(--clr-accent-2);
+    }
+
+    font-family: var(--ff-primary);
+    font-size: var(--fs-300);
+    font-weight: var(--fw-regular);
+}

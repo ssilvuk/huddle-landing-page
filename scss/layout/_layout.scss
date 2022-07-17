@@ -2,8 +2,73 @@ body {
     background-color: var(--clr-accent-1);
 }
 
+p {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-regular);
+    line-height: 1.5rem;
+}
+
 .container {
+    max-width: 23.4377rem;
+    margin-inline: auto;
+    padding-inline: 2.125rem;
+}
+
+.header {
+    padding: 1.875rem 0;
+}
+
+.logo {
+    width: 7.5rem;
+}
+
+.content {
+    min-height: 44rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    // border: 2px solid white;
+}
+
+.img-col {
+    margin-top: 2rem;
+}
+
+.page-title,
+p {
+    color: var(--clr-primary);
+}
+
+.page-title {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-heading);
+    font-weight: var(--fw-semi-bold);
+    line-height: 2.25rem;
+}
+
+.info-col {
+    margin-top: 3.2rem;
+}
+
+.message {
+    margin-top: 1rem;
+}
+
+.btn {
+    margin-top: 2em;
+}
+
+.socials-col {
+    margin-top: 4em;
+    display: flex;
+    gap: 1em;
+}
+
+.fa-brands {
+    padding: 0.2em;
+    background-color: white;
+    color: var(--clr-accent-1);
+    font-size: 1.25rem;
+    border-radius: 50%;
 }
